@@ -11,7 +11,6 @@ public class Client {
             Socket client=new Socket(Server.host, Server.PORT);
             BufferedReader r=new BufferedReader(new InputStreamReader(client.getInputStream()));
         ){
-            
             String fromServer;
             fromServer=r.readLine();
             System.out.println("Current time on the server side is: " + fromServer);
