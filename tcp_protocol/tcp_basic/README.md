@@ -1,0 +1,1 @@
+Basic usage of the tcp communication protocol. Clients asks server for its current time, server responds, clients prints received response on standard output and disconnects from the server afterwards.
